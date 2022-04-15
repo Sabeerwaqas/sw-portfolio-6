@@ -1,0 +1,180 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+}
+
+.slider-img {
+    height: 80vh;
+    width: 100%;
+}
+
+.about-container {
+    width: 70%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    color: darkblue;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+.about-skills {
+    text-transform: capitalize;
+}
+
+.about {
+    text-align: center;
+    font-weight: bolder;
+    color: darkblue;
+    box-shadow: 10px 10px 4px darkgray;
+    margin-top: 2%;
+    width: 30%;
+    margin-left: 35%;
+    font-size: 50px;
+}
+
+.fa-brands {
+    font-size: 60px;
+}
+
+.icons p {
+    width: 50%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.fa-html5:hover {
+    color: red;
+}
+
+.fa-css3-alt:hover {
+    color: skyblue;
+}
+
+.fa-js-square:hover {
+    color: yellow;
+}
+
+.fa-react:hover {
+    color: blue;
+}
+
+.fa-bootstrap:hover {
+    color: purple;
+}
+
+.vision {
+    font-family: "Hurricane", cursive;
+    font-size: 60px;
+    width: 70%;
+    text-align: center;
+    color: darkmagenta;
+    text-shadow: 2px 2px 2px green;
+    margin-left: 15%;
+    text-transform: capitalize;
+}
+
+.contact {
+    font-size: 50px;
+    color: darkblue;
+    box-shadow: inset 5px 5px 2px darkgray;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+i {
+    margin-left: 5%;
+}
+
+.project {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.mobile {
+    text-align: center;
+    font-size: 40px;
+}
+
+.whatsapp,
+.email {
+    text-align: center;
+    font-size: 40px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .about {
+        text-align: center;
+        font-weight: bolder;
+        color: darkblue;
+        box-shadow: 10px 10px 4px darkgray;
+        margin-top: 2%;
+        width: 30%;
+        margin-left: 35%;
+        font-size: 25px;
+    }
+    .about-container {
+        width: 70%;
+        margin-top: 5%;
+        font-weight: bold;
+        font-size: 100%;
+        text-align: center;
+        color: darkblue;
+        box-shadow: 5px 5px 5px darkgray;
+    }
+    .vision {
+        font-family: "Hurricane", cursive;
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+        color: darkmagenta;
+        text-shadow: 2px 2px 2px green;
+        margin-left: 15%;
+        text-transform: capitalize;
+    }
+    .contact {
+        font-size: 20px;
+        color: darkblue;
+        box-shadow: inset 5px 5px 2px darkgray;
+        width: 30%;
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .mobile {
+        text-align: center;
+        font-size: 20px;
+    }
+    .whatsapp,
+    .email {
+        text-align: center;
+        font-size: 20px;
+    }
+    .slider-img {
+        height: 100vh;
+        width: 100%;
+    }
+    .slider-3 {
+        height: 37vh;
+    }
+}
